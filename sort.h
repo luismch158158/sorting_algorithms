@@ -1,10 +1,8 @@
-#ifndef DECK_H
-#define DECK_H
+#ifndef SORT_H
+#define SORT_H
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
-#include <stddef.h>
 
 /**
  * struct listint_s - Doubly linked list node
@@ -37,4 +35,4 @@ void bitonic_sort(int *array, size_t size);
 void quick_sort_hoare(int *array, size_t size);
 
 
-#endif /*DECK_H*/
+#endif /*SORT_H*/

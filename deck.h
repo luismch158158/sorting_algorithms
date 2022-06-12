@@ -1,5 +1,5 @@
-#ifndef SORT_H
-#define SORT_H
+#ifndef DECK_H
+#define DECK_H
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -46,4 +46,4 @@ deck_node_t *init_deck(const card_t cards[52]);
 void sort_deck(deck_node_t **deck);
 
 
-#endif /*sort.h*/
+#endif /*deck.h*/
